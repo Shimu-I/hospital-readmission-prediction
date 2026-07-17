@@ -19,3 +19,41 @@ The project will gradually evolve form:
 - Machine Learning
 - Explainable AI
 - Deployment
+
+
+
+## Basic Project Structure
+
+```
+
+project/
+|
+|── .venv/
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+│
+├── data/
+│   ├── interim/
+│   ├── processed/
+|   └── raw/
+│
+├── docs/
+|   ├── setup-images/
+|   ├── project_journal.md
+│   ├── project_plan.md
+│   └── setup_guide.md
+│
+├── notebooks/
+|   ├── 01_dataset_understanding.ipynb
+│
+├── src/
+|
+├── .gitignore
+|
+├── README.md
+|
+└── requirements.txt
+
+```
